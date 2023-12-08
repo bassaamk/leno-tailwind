@@ -807,8 +807,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-land-mob {
-  background-image: url('/dist/images/landing-mob.jpg');
+.bg-\[url\(\'\.\.\/dist\/images\/landing-mob\.jpg\'\)\] {
+  background-image: url('../dist/images/landing-mob.jpg');
 }
 
 .bg-cover {
@@ -1159,8 +1159,8 @@ video {
     gap: 3.5rem;
   }
 
-  .md\:bg-land {
-    background-image: url('/dist/images/landing.jpg');
+  .md\:bg-\[url\(\'\.\.\/dist\/images\/landing\.jpg\'\)\] {
+    background-image: url('../dist/images/landing.jpg');
   }
 
   .md\:px-0 {
